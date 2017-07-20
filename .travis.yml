@@ -16,5 +16,5 @@ before_script:
 
 script:
   - ./gradlew test
-  - ./gradlew test --tests "juja.microservices.integration.*"
-  - ./gradlew test --tests "juja.microservices.acceptance.*"
+  - ./gradlew test --tests "juja.microservices.integration.*" --debug
+  - ./gradlew test --tests "juja.microservices.acceptance.*" --debug
